@@ -71,7 +71,8 @@
   color: #f9bf3b;
 }
 
-.promo_btn {
+.promo_btn,
+.gift_btn {
   display: block;
   margin: 0 auto;
   margin-top: 73px;
@@ -87,6 +88,12 @@
   text-transform: uppercase;
   cursor: pointer;
   outline: none;
+}
+
+.gift_btn {
+  margin-top: 52px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border: none;
 }
 
 .more {
@@ -237,5 +244,23 @@
   font-size: 17px;
   line-height: 20px;
   color: #efefef;
+  text-align: center;
+}
+
+.gift {
+  min-height: 628px;
+  padding: 86px 0 87px 0;
+  background-color: #efefef;
+}
+
+.gift_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gift_text {
+  margin-top: 42px;
+  font-size: 30px;
+  line-height: 43px;
   text-align: center;
 }
