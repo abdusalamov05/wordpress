@@ -264,3 +264,40 @@
   line-height: 43px;
   text-align: center;
 }
+
+.first {
+  min-height: 515px;
+  padding: 89px 0 64px 0;
+}
+
+.first_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.first_text {
+  margin-top: 37px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #252525;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.date {
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 30px;
+  color: #299cbd;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.first_subtitle {
+  margin-top: 25px;
+  font-size: 23px;
+  line-height: 20px;
+  color: #4a4a4a;
+  text-align: center;
+}
